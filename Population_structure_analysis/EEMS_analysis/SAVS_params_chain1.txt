@@ -1,0 +1,9 @@
+datapath =/home/bowielab/SAVS_eems_data/SAVS_rangewide_input/SAVS_modern_EEMS_June22
+mcmcpath = /home/bowielab/SAVS_eems_data/SAVS_FullData_out_chain3
+nIndiv = 166
+nSites = 728312
+nDemes = 1000
+diploid = true
+numMCMCIter = 20000000
+numBurnIter = 10000000
+numThinIter = 9999

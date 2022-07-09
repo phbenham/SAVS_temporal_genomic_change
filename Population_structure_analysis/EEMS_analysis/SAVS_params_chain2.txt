@@ -1,0 +1,9 @@
+datapath = /media/sf_UbuntuAnalyses/EEMSdata/SAVS_FullData_input/CA_SAVS_FullData_forEEMS
+mcmcpath = /media/sf_UbuntuAnalyses/EEMSdata/SAVS_FullData_out_chain2
+nIndiv = 219
+nSites = 149511
+nDemes = 500
+diploid = true
+numMCMCIter = 20000000
+numBurnIter = 10000000
+numThinIter = 9999
