@@ -1,0 +1,30 @@
+time_units: years
+generation_time: 2.2
+demes:
+- name: ancestral
+  epochs:
+  - {end_time: 254219.1663515834, start_size: 16749.34459599767}
+- name: Orange
+  ancestors: [ancestral]
+  epochs:
+  - {end_time: 32164.307947598, start_size: 0.2258207473873467, end_size: 16749.350688588747}
+  - {end_time: 0.0, start_size: 6675.814813753894}
+- name: BayArea_EastCal
+  ancestors: [ancestral]
+  epochs:
+  - {end_time: 32164.307947598, start_size: 297826.69019108603}
+- name: BayArea
+  ancestors: [BayArea_EastCal]
+  epochs:
+  - {end_time: 0.0, start_size: 297528.8635008949, end_size: 16755.05678556614}
+- name: EastCal
+  ancestors: [BayArea_EastCal]
+  epochs:
+  - {end_time: 0.0, start_size: 68438.02128078915}
+migrations:
+- {source: Orange, dest: BayArea, rate: 1.282307125940697e-05}
+- {source: BayArea, dest: Orange, rate: 0.00011476049201840095}
+- {source: EastCal, dest: Orange, rate: 1.2396906141949054e-05}
+- {source: BayArea, dest: EastCal, rate: 0.0001331730273847967}
+- {source: EastCal, dest: BayArea, rate: 0.0001558564972722363}
+- {source: Orange, dest: BayArea_EastCal, rate: 8.256419831111527e-05}
